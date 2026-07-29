@@ -5,7 +5,13 @@ import javax.swing.JOptionPane;
 public class CanYouVote {
     public static void main(String[] args) {
         int age = Integer.parseInt(JOptionPane.showInputDialog("ENter your age."));
-        boolean rsaCitizen = 
+        boolean rsaCitizen = false;
+        String citizenStatus = JOptionPane.showInputDialog("Are you a citizen? (y/n)");
+        
+        if (citizenStatus == "y") {
+            
+        } else {
+        }
     }
     
 }
