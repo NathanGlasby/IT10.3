@@ -11,10 +11,8 @@ public class LoginScreen {
         String userName = JOptionPane.showInputDialog("Enter your username.");
         String password = JOptionPane.showInputDialog("Enter your password.");
         
-        if (userName.equals(userUserName)) {
-            if (password.equals(userPassword)) {
-                System.out.println("Login successful.");
-            }
+        if (userName.equals(userUserName) && password.equals(userPassword)) {
+            System.out.println("Login successful.");
         }
         else {
             System.out.println("Login failed.");
