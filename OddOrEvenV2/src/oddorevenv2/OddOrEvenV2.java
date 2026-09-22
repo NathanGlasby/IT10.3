@@ -24,7 +24,6 @@ public class OddOrEvenV2 {
             System.out.println(num + " is odd.");
         }
         
-        s
     // Q2: Check whether num1 divided num2 has a remainder.
         int num1 = 7;
         int num2 = 3;

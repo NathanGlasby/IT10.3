@@ -1,6 +1,6 @@
 # IT10.3
 
-Java coursework for Grade 10 IT Term 3. These small NetBeans projects practise conditional statements with user input from `JOptionPane`.
+My Grade 10 IT coursework for Term 3. The NetBeans projects cover conditionals, loops, arrays, and classes. Several use `JOptionPane` for input.
 
 ## Projects
 
@@ -15,6 +15,12 @@ Java coursework for Grade 10 IT Term 3. These small NetBeans projects practise c
 | [`Vegetarian`](./Vegetarian) | Responds to a simple vegetarian meal choice. |
 
 Each folder is a separate NetBeans project with its own `build.xml` and main class.
+
+The recovered projects also include CanYouVote, LoginScreen, PasswordChecker, TrafficCheck, RainyA, RockPaperScissors and its second version, OddOrEvenV2, IfRevision, and the GlasbyNathan Term 3 practice tests and test.
+
+Later classwork is in AccountLogIn, GuessTheNumber, Multiply, OlympicSprint, ShoppingBasket, Weather, CityTemps, Foods, FavFoods, Scores, PokemonUI, MathsClass, and LanguageStats. ContinentArea is the newer exercise using a two-dimensional array.
+
+`Databases` contains ten Access exercises: BookingDB, CGISoft, DigitalNimbus, HopeDB, InstaPageDB, SAMusic, SocialOutreach, Theatre, VideoGameSalesDB, and XSpaceSystems. Open the `.mdb` or `.accdb` files in Microsoft Access.
 
 ## Topics covered
 
@@ -46,3 +52,10 @@ ant run
 
 This coursework is available under the [MIT License](./LICENSE).
 
+## Recovery notes
+
+The 32 recovered projects containing source compiled with JDK 26. All ten databases opened successfully and their tables could be read. ContinentArea was added after the recovery set was assembled; it also built and ran successfully.
+
+Some exercises still need work. MathsClass's `squares()` method returns an empty string as a placeholder, and IfRevision's later questions are incomplete. The old AddOrEven folder contained only private IDE settings; OddOrEven and OddOrEvenV2 were recovered.
+
+Original versions of repaired files are kept in local recovery folders. Recovery copies, reference documents, generated builds, and machine-specific settings are excluded from Git.

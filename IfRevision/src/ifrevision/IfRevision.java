@@ -30,7 +30,7 @@ public class IfRevision {
 // Q2 - Output a word without the vowels
         String word1 = "banana";
                     
-        for (int i = 0; i= word1.l; i++) {
+        for (int i = 0; i < word1.length(); i++) {
             System.out.println(word1.charAt(i));
         }
 
@@ -40,4 +40,3 @@ public class IfRevision {
         }
     }
     
-}
