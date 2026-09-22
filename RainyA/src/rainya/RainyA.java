@@ -13,6 +13,7 @@ public class RainyA {
         if (letter == 'a') {
             System.out.println(letter + " is a vowel.");
             
+        }
             else if (letter == 'e') {
                 System.out.println(letter + " is a vowel.");
 }
@@ -48,4 +49,3 @@ public class RainyA {
         }
     }
     
-}

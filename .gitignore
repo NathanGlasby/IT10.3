@@ -3,3 +3,12 @@
 **/nbproject/private/
 *.class
 
+# Local backups and reference documents
+/Recovery/
+/Resources/
+**/target/
+**/.idea/
+**/.vscode/
+*.ldb
+*.laccdb
+build-verification.txt
